@@ -32,15 +32,18 @@ body {
   position: relative;
   background-image: url('./image/1711631188753.png');
   background-size: cover;
-  background-position: center;
+  background-position: center; /* 默认居中 */
 }
 
 .word {
   position: absolute;
   left: 20%; /* 留出20%的左边空间 */
   top: 30%; /* 留出30%的顶部空间 */
+  padding: 20px; /* 增加内边距以形成方框 */
+  background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
   color: white;
-  text-align: left; /* 左对齐 */
+  text-align: left;
+  border-radius: 10px; /* 圆角边框 */
 }
 
 .shell-main-footer {
@@ -57,6 +60,10 @@ body {
 /* 响应式设计 */
 @media (max-width: 600px) {
   .word {
-    font-size: 20px; /* 根据需要调整字体大小 */
+    font-size: 30px; /* 增大字体大小 */
+  }
+
+  .shell-top {
+    background-position: right center; /* 在手机端将背景图片调整到中间偏右 */
   }
 }
