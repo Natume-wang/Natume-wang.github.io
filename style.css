@@ -25,15 +25,12 @@ nav a {
 }
 
 .hero {
-    background-image: url('./image/117832577_p1.jpg'); /* 替换为你自己的图片 */
+    background-image: url('your-image-url.jpg'); /* 替换为你自己的图片 */
     background-size: cover;
     background-position: center;
     color: black; /* 修改字体颜色为黑色 */
     text-align: center;
- 
-
-}
-
+    padding: 100px 20px;
 }
 
 .hero-title {
