@@ -41,3 +41,31 @@ body .shell-main {
   align-items: center;
   margin-bottom: 100px;
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./image/1711631188753.png'); /* 替换为你的背景图片 */
+    background-size: cover; /* 使背景图覆盖整个容器 */
+    background-position: center; /* 居中显示背景图 */
+    background-repeat: no-repeat; /* 不重复背景图 */
+}
+
+.shell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 设置为视口高度 */
+    color: white; /* 文字颜色 */
+}
+
+.word {
+    text-align: center;
+}
+
+/* 响应式设计 */
+@media (max-width: 600px) {
+    .word h2 {
+        font-size: 20px; /* 根据屏幕大小调整字体大小 */
+    }
+}
