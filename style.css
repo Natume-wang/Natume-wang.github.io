@@ -31,6 +31,10 @@ nav a {
     color: black; /* 修改字体颜色为黑色 */
     text-align: center;
     padding: 100px 20px;
+    background-position: center top; /* 居中并对齐顶部 */
+    background-repeat: no-repeat; /* 不重复背景图 */
+}
+
 }
 
 .hero-title {
