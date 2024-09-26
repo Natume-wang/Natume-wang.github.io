@@ -21,7 +21,7 @@ nav ul {
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 18px; /* 增大字体 */
+    font-size: 20px; /* 增大字体 */
 }
 
 .hero {
@@ -34,12 +34,12 @@ nav a {
 }
 
 .hero-title {
-    font-size: 48px;
+    font-size: 60px; /* 增大标题字体 */
     margin-bottom: 20px; /* 增加标题和段落之间的间距 */
 }
 
 .hero-subtitle {
-    font-size: 24px; /* 增大段落字体 */
+    font-size: 30px; /* 增大段落字体 */
     margin-bottom: 30px; /* 增加段落和按钮之间的间距 */
 }
 
