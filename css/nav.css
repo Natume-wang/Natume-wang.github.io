@@ -21,26 +21,7 @@ body .shell-main-nav {
   backdrop-filter: blur(13px);
 }
 
-body .shell-main-nav .logo {
-  width: 220px;
-  height: 100%;
-  position: absolute;
-  left: 5%;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-}
-
-body .shell-main-nav .logo img {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-}
-
-body .shell-main-nav .logo span {
-  font: 100 22px 'font';
-  letter-spacing: 2px;
-}
+/* 删除了 logo 部分 */
 
 body .shell-main-nav ul {
   width: 600px;
@@ -77,29 +58,23 @@ body .shell-main-nav ul li a {
   line-height: 60px;
   text-align: center;
 }
+
+/* 保留了第三、第四和第五个导航项的悬停效果 */
 body .shell-main-nav ul li:nth-child(1):hover~.nav-box {
   left: 0px;
-  background-color: red;
+  background-color: #8da1f8;
 }
+
 body .shell-main-nav ul li:nth-child(2):hover~.nav-box {
   left: 120px;
-  background-color: red;
+  background-color: #ffb1b1;
 }
 
 body .shell-main-nav ul li:nth-child(3):hover~.nav-box {
   left: 240px;
-  background-color: #8da1f8;
-}
-
-body .shell-main-nav ul li:nth-child(4):hover~.nav-box {
-  left: 360px;
-  background-color: #ffb1b1;
-}
-
-body .shell-main-nav ul li:nth-child(5):hover~.nav-box {
-  left: 480px;
   background-color: #7df88e;
 }
+
 /* media */
 @media (max-width:768px) {
   body .shell-main-nav ul {
@@ -110,10 +85,6 @@ body .shell-main-nav ul li:nth-child(5):hover~.nav-box {
 }
 
 @media (max-width:600px) {
-  body .shell-main-nav .logo {
-      display: none;
-  }
-
   body .shell-main-nav ul {
       transform: scale(.6);
       right: -130px;
